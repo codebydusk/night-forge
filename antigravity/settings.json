@@ -74,5 +74,9 @@
 		"editor.wordWrap": "on",
 		"editor.renderWhitespace": "all",
 		"editor.acceptSuggestionOnEnter": "smart"
-	}
+	},
+	"securecoder.enabled": true,
+	"securecoder.scannerBackend": "semgrep",
+	"google.cloud.project": "gen-lang-client-0375379202",
+	"google.cloud.region": "asia-east1"
 }
