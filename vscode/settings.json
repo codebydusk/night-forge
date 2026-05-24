@@ -2,7 +2,7 @@
     // --- EDITOR SETTINGS ---
     "editor.fontFamily": "'JetBrains Mono',  'Fira Code', Inconsolata, 'Cascadia Code', monospace",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "600",
+    "editor.fontWeight": "400",
     "editor.lineHeight": 22,
     "editor.renderWhitespace": "all",
     "editor.accessibilitySupport": "off",
@@ -11,20 +11,7 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "editor.stickyScroll.enabled": true,
-
-    // --- TERMINAL SETTINGS ---
-    "terminal.integrated.fontFamily": "'Cascadia Code', 'Symbols Nerd Font Mono', monospace",
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.gpuAcceleration": "on",
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-
-    // --- WORKBENCH & THEMING ---
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.colorTheme": "One Dark Pro Night Flat",
-    "workbench.iconTheme": "flow-deep",
-    "workbench.productIconTheme": "fluent-icons",
-    "editor.tokenColorCustomizations": {
+        "editor.tokenColorCustomizations": {
         "[*Light*]": {
             "textMateRules": [
                 {
@@ -82,6 +69,19 @@
             }
         ]
     },
+
+    // --- TERMINAL SETTINGS ---
+    "terminal.integrated.fontFamily": "'Cascadia Code', 'Symbols Nerd Font Mono', monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    // --- WORKBENCH & THEMING ---
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
     "workbench.colorCustomizations": {
         "[Vira*]": {
             "statusBar.debuggingBackground": "#80CBC433",
@@ -194,7 +194,7 @@
         "editor.formatOnPaste": true
     },
     "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.defaultFormatter": "vscode.markdown-language-features",
         "editor.wordWrap": "on",
         "editor.renderWhitespace": "all",
         "editor.acceptSuggestionOnEnter": "smart"

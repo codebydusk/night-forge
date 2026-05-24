@@ -68,10 +68,17 @@ Fetch-Config -Source (Join-Path $ZedSource "settings.json") -Destination (Join-P
 Fetch-Config -Source (Join-Path $ZedSource "keymap.json") -Destination (Join-Path $RepoDir "zed\keymap.json")
 
 # ---------------------------------------------------------
-# 4. Fetch Antigravity
+# 4. Fetch Antigravity IDE 2.0
 # ---------------------------------------------------------
-Write-Host "`nFetching Antigravity..."
-Fetch-Config -Source (Join-Path $env:LOCALAPPDATA "antigravity") -Destination (Join-Path $RepoDir "antigravity")
+Write-Host "`nFetching Antigravity IDE..."
+# Antigravity 2.0 moved configurations to Roaming and uses a VS Code-style User folder
+$AntigravitySource = Join-Path $env:APPDATA "Antigravity IDE\User"
+
+Fetch-Config -Source (Join-Path $AntigravitySource "settings.json") -Destination (Join-Path $RepoDir "antigravity\settings.json")
+Fetch-Config -Source (Join-Path $AntigravitySource "keybindings.json") -Destination (Join-Path $RepoDir "antigravity\keybindings.json")
+
+# Optional: If you want to back up your custom AG extensions list or UI state, 
+# you can also target the new extensions folder located at $env:USERPROFILE\.antigravity-ide
 
 # ---------------------------------------------------------
 # 5. Fetch WebStorm / JetBrains
