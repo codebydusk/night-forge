@@ -148,6 +148,7 @@
     "files.refactoring.autoSave": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
     "security.workspace.trust.untrustedFiles": "open",
 
     // --- GIT, SCM & AI INTEGRATION ---
