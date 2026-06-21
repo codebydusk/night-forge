@@ -21,7 +21,6 @@
     // --- WORKBENCH & THEMING ---
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
 
@@ -81,10 +80,13 @@
         "editor.formatOnPaste": true
     },
     "[markdown]": {
-        "editor.defaultFormatter": "vscode.markdown-language-features",
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.wordWrap": "on",
         "editor.renderWhitespace": "all",
         "editor.acceptSuggestionOnEnter": "smart"
     },
-    "chat.viewSessions.orientation": "stacked"
+    "chat.viewSessions.orientation": "stacked",
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Wolfskii's Dark Jetbrains Theme"
 }

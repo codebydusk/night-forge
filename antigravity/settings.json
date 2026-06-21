@@ -19,9 +19,6 @@
 	// --- WORKBENCH & THEMING ---
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.enablePreviewFromQuickOpen": false,
-	"workbench.colorTheme": "Gruvbox Dark Hard",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.productIconTheme": "fluent-icons",
 	// --- FILES, EXPLORER & WORKSPACE ---
 	"files.exclude": {
 		"**/.classpath": true,
@@ -78,5 +75,13 @@
 	"securecoder.enabled": true,
 	"securecoder.scannerBackend": "semgrep",
 	"google.cloud.project": "gen-lang-client-0375379202",
-	"google.cloud.region": "asia-east1"
+	"google.cloud.region": "asia-east1",
+	"http.systemCertificatesNode": true,
+	"geminicodeassist.project": "sanguine-space-s3m6w",
+	"jupyter.jupyterLaunchTimeout": 300000,
+	"antigravity.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
+	"antigravity.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+	"workbench.colorTheme": "JetBrains Dark Modern Theme",
+	"workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+	"workbench.productIconTheme": "jetbrains-product-icons"
 }
